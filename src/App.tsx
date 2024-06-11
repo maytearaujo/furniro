@@ -1,6 +1,6 @@
 import GlobalStyles from "./styles/global"
 
-import Root from "./routes/root"
+import Root from "./components/routes/root"
 
 function App() {
 

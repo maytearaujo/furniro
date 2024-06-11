@@ -1,11 +1,14 @@
 import GlobalStyles from "./styles/global"
 
+import Root from "./routes/root"
+
 function App() {
 
   return (
     <>
       <GlobalStyles />
-      <h1 className="text-3xl font-bold underline text-red-300 text-center">
+      <Root />
+      <h1>
         Hello world!<br />
         Welcome to the Furniro
       </h1>

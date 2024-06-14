@@ -8,11 +8,12 @@ const GlobalStyles = createGlobalStyle`
     }
 
     html {
-        font-size: 62.5%;
+        /* font-size: 62.5%; */
     }
 
     body {
         font-family: "Poppins", sans-serif;
+        /* font-family: "Poppins", "Montserrat", sans-serif; */
         font-weight: 400;
         font-style: normal
     }

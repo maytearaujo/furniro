@@ -1,5 +1,5 @@
 import * as S from './OurProductsStyles'
-
+import Carousel from '../Carousel/Carousel'
 const BrowseTheRange = () => {
   return (
     <S.OurProducts>

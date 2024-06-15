@@ -36,7 +36,7 @@ const Carousel = () => {
 
   return (
     <div>
-      <h2>1º Carousel</h2>
+      <h2>Carousel</h2>
       <S.SlideItem>
         <Swiper
          spaceBetween={50}

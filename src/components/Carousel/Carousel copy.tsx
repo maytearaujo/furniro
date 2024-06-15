@@ -1,12 +1,11 @@
 // import { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 // import axios from 'axios';
+import * as S from './CarouselStyles'
 import 'swiper/css';
-import * as S from './BeautifulRoomsInspirationStyles'
 
 
-function BeautifulRoomsInspiration() {
-
+const Carousel = () => {
 
   const furnitures = [
     {
@@ -34,24 +33,25 @@ function BeautifulRoomsInspiration() {
       "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-6.png"
     }
   ]
+
   return (
-    <S.BeautifulRoomsInspiration>
-      <h2>50+Beautiful Rooms Inspiration</h2>
+    <div>
+      <h2>1º Carousel</h2>
       <S.SlideItem>
         <Swiper
-          spaceBetween={50}
-          slidesPerView={3.8}
-          draggable={true}
-          breakpoints={{
-            1600: { slidesPerView: 3.8 },
-            1400: { slidesPerView: 3.25 },
-            1200: { slidesPerView: 3 },
-            1024: { slidesPerView: 2.5 },
-            768: { slidesPerView: 2, spaceBetween: 30 },
-            576: { slidesPerView: 1.5, spaceBetween: 20 },
-            375: { slidesPerView: 1.25, spaceBetween: 15 },
-            320: { slidesPerView: 1, spaceBetween: 10 },
-          }}
+         spaceBetween={50}
+         slidesPerView={3.8}
+         draggable={true}
+         breakpoints={{
+           1600: { slidesPerView: 3.8 },
+           1400: { slidesPerView: 3.25 },
+           1200: { slidesPerView: 3 },
+           1024: { slidesPerView: 2.5 },
+           768: { slidesPerView: 2, spaceBetween: 30 },
+           576: { slidesPerView: 1.5, spaceBetween: 20 },
+           375: { slidesPerView: 1.25, spaceBetween: 15 },
+           320: { slidesPerView: 1, spaceBetween: 10 },
+         }}
         >
           {furnitures.map((item) => (
             <SwiperSlide key={item.id}>
@@ -65,8 +65,8 @@ function BeautifulRoomsInspiration() {
           }
         </Swiper>
       </S.SlideItem>
-    </S.BeautifulRoomsInspiration>
+    </div>
   )
 }
 
-export default BeautifulRoomsInspiration
+export default Carousel

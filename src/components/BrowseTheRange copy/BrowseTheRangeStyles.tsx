@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
-export const BeautifulRoomsInspiration = styled.main`
+export const MainBrowseTheRange = styled.main`
+border: solid green;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -9,10 +10,17 @@ export const BeautifulRoomsInspiration = styled.main`
 
   h2{
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #333333;
   }
-`
+
+  p {
+    color: #666666;
+    font-size: 1.25rem;
+  }
+
+  `
+
 export const SlideItem = styled.div`
 border: solid red;
 width: 70%;

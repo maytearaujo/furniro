@@ -1,11 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
 
 import App from '../App.tsx';
-import ErrorPage from '../page/errorPage/ErrorPage.tsx';
+import ErrorPage from '../page/errorPage/ErrorPage';
 import Login from "../page/login/Login";
 import Home from '../page/home/Home.tsx';
-import Register from "../page/register/Register.tsx";
-import Shop from '../page/shop/Shop.tsx';
+import Register from "../page/register/Register";
+import Shop from '../page/shop/Shop'
 
   const router = createBrowserRouter([
     {

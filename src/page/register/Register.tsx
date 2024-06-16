@@ -26,41 +26,43 @@ const Register = () => {
 
   return (
     <S.DivRegister>
-        <S.HeaderRegister>
-          <span>Por favor digite suas informações de cadastro</span>
-        </S.HeaderRegister>
+      <h1>Register</h1>
 
-        <form>
-          <S.InputContainer>
-            <label htmlFor="email">E-mail</label>
-            <input
-              type="text"
-              name="email"
-              id="email"
-              placeholder="usuario@site.com"
-              onChange={(e) => setEmail(e.target.value)}
-            />
-          </S.InputContainer>
+      <S.HeaderRegister>
+        <span>Por favor digite suas informações de Cadastro</span>
+      </S.HeaderRegister>
 
-          <S.InputContainer>
-            <label htmlFor="password">Senha</label>
-            <input
-              type="password"
-              name="password"
-              id="password"
-              placeholder="********************"
-              onChange={(e) => setPassword(e.target.value)}
-            />
-          </S.InputContainer>
+      <form>
+        <S.InputContainer>
+          <label htmlFor="email">E-mail</label>
+          <input
+            type="text"
+            name="email"
+            id="email"
+            placeholder="usuario@site.com"
+            onChange={(e) => setEmail(e.target.value)}
+          />
+        </S.InputContainer>
 
-          <S.Button onClick={handleSignOut}>
-            Cadastrar <img src={arrowImg} alt="->" />
-          </S.Button>
-          <S.Footer>
-            <p>Você já tem uma conta?</p>
-            <Link to="/">Acesse sua conta aqui</Link>
-          </S.Footer>
-        </form>
+        <S.InputContainer>
+          <label htmlFor="password">Senha</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="********************"
+            onChange={(e) => setPassword(e.target.value)}
+          />
+        </S.InputContainer>
+
+        <S.Button onClick={handleSignOut}>
+          Cadastrar <img src={arrowImg} alt="->" />
+        </S.Button>
+        <S.Footer>
+          <p>Você já tem uma conta?</p>
+          <Link to="/Shop">Acesse sua conta aqui</Link>
+        </S.Footer>
+      </form>
     </S.DivRegister>
   )
 }

@@ -9,6 +9,8 @@ import arrowImg from "../../assets/arrow.svg";
 import * as S from './LoginStyles'
 
 
+
+
 const Login = () => {
 
   const [email, setEmail] = useState("");
@@ -46,7 +48,7 @@ const Login = () => {
             type="text"
             name="email"
             id="email"
-            placeholder="fusuario@site.com"
+            placeholder="usuario@site.com"
             onChange={(e) => setEmail(e.target.value)}
           />
         </S.InputContainer>

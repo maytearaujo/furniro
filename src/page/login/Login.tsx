@@ -1,7 +1,9 @@
 import { useState } from "react";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
 import { Link } from "react-router-dom";
-import { auth } from "../../services/firebaseConfig.js";
+import {app} from "../../services/firebaseConfig"
+import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
+
 
 
 import arrowImg from "../../assets/arrow.svg";
@@ -9,10 +11,33 @@ import arrowImg from "../../assets/arrow.svg";
 import * as S from './LoginStyles'
 
 
+const provider = new GoogleAuthProvider();
 
 
 const Login = () => {
+    const auth = getAuth(app);
 
+  // LOGIN COM GOOGLE
+  const signInGoogle = () => {
+
+
+    signInWithPopup(auth, provider)
+      .then((result) => {
+        
+        const credential = GoogleAuthProvider.credentialFromResult(result);
+        const token = credential.accessToken;
+        const user = result.user;
+        console.log(user)
+
+      }).catch((error) => {
+        const errorCode = error.code;
+        const errorMessage = error.message;
+        const email = error.customData.email;
+        const credential = GoogleAuthProvider.credentialFromError(error);
+      });
+  }
+
+  // LOGIN COM EMAIL E SENHA
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
@@ -36,6 +61,8 @@ const Login = () => {
   return (
     <S.DivLogin>
       <h1>Login</h1>
+
+      <button onClick={signInGoogle}>Logar com o Google</button>
 
       <S.HeaderLogin>
         <span>Por favor digite suas informações de login</span>

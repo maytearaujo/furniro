@@ -19,7 +19,7 @@ const Navbar = () => {
                         <Link to={`/shop`}>Shop</Link>
                     </li>
                     <li>
-                        <Link to={`/about`}>About</Link>
+                        <Link to={`#`}>About</Link>
                     </li>
                     <li>
                         <Link to={`/contact`}>Contact</Link>
@@ -29,6 +29,9 @@ const Navbar = () => {
                     </li>
                     <li>
                         <Link to={`/register`}>Register</Link>
+                    </li>
+                    <li>
+                        <Link to={`/teste`}>teste</Link>
                     </li>
                 </ul>
             </S.Nav>

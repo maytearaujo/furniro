@@ -9,7 +9,7 @@ import * as S from './BrowseTheRangeStyles'
 
 const BrowseTheRange = () => {
 
-  const api = 'https://run.mocky.io/v3/43c27de1-cc9b-4293-8cfd-6497edcd8f43/BrowseTheRange';
+  const api = 'https://run.mocky.io/v3/a4bcc170-742a-4e70-a563-0775266c9e38';
 
   type Furniture = {
     id: string;
@@ -24,8 +24,7 @@ const BrowseTheRange = () => {
       try {
         const response = await axios.get(api);
         setFurnitures(response.data);
-        console.log(response.data)
-        console.log(typeof (response.data))
+
       } catch (error) {
         console.error(error);
       }
@@ -67,35 +66,34 @@ const BrowseTheRange = () => {
 
         <p>slide2</p>
         <S.SlideItem>
-        <Swiper
-          spaceBetween={50}
-          slidesPerView={2.5}
-          navigation
-          pagination={{ clickable: true }}
-          scrollbar={{ draggable: true }}
-        >
+          <Swiper
+            spaceBetween={50}
+            slidesPerView={2.5}
+            navigation
+            pagination={{ clickable: true }}
+            scrollbar={{ draggable: true }}
+          >
+            {furnitures.length > 0 ? (
+              furnitures.map((item) => (
+                <SwiperSlide key={item.id}>
 
-          {furnitures.length > 0 ? (
-            furnitures.map((item) => (
-              <SwiperSlide key={item.id}>
+                  <img
+                    src={item.imgUrl}
+                    alt="Furniture"
 
-                <img
-                  src={item.imgUrl}
-                  alt="Furniture"
-
-                />
-              </SwiperSlide>
-              
+                  />
+                </SwiperSlide>
 
 
 
-            ))
-          ) : (
-            <div>
-              <span>Nenhuma consulta encontrada</span>
-            </div>
-          )}
-        </Swiper>
+
+              ))
+            ) : (
+              <div>
+                <span>Nenhuma consulta encontrada</span>
+              </div>
+            )}
+          </Swiper>
         </S.SlideItem>
       </S.MainBrowseTheRange>
     </>

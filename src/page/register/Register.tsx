@@ -37,7 +37,7 @@ const Register = () => {
               type="text"
               name="email"
               id="email"
-              placeholder="johndoe@gmail.com"
+              placeholder="usuario@site.com"
               onChange={(e) => setEmail(e.target.value)}
             />
           </S.InputContainer>
@@ -53,13 +53,13 @@ const Register = () => {
             />
           </S.InputContainer>
 
-          <button onClick={handleSignOut} className="button">
+          <S.Button onClick={handleSignOut}>
             Cadastrar <img src={arrowImg} alt="->" />
-          </button>
-          <div className="footer">
+          </S.Button>
+          <S.Footer>
             <p>Você já tem uma conta?</p>
             <Link to="/">Acesse sua conta aqui</Link>
-          </div>
+          </S.Footer>
         </form>
     </S.DivRegister>
   )

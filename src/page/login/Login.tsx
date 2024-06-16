@@ -46,7 +46,7 @@ const Login = () => {
             type="text"
             name="email"
             id="email"
-            placeholder="fulanodetal@servidor.com"
+            placeholder="fusuario@site.com"
             onChange={(e) => setEmail(e.target.value)}
           />
         </S.InputContainer>
@@ -64,13 +64,13 @@ const Login = () => {
 
         <a href="#">Esqueceu sua senha ?</a>
 
-        <button className="button" onClick={handleSignIn}>
+        <S.Button onClick={handleSignIn}>
           Entrar <img src={arrowImg} alt="->" />
-        </button>
-        <div className="footer">
+        </S.Button>
+        <S.Footer>
           <p>Você não tem uma conta?</p>
           <Link to="/register">Crie a sua conta aqui</Link>
-        </div>
+        </S.Footer>
       </form>
 
 

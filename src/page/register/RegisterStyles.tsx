@@ -18,6 +18,14 @@ export const DivRegister = styled.div`
         align-items: center;
         flex-direction: column;
         
+        a {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            padding-top: 16px;
+            padding-bottom: 16px;
+            color: #5C73DB;
+        }
     }
 `
 export const HeaderRegister = styled.div`
@@ -60,6 +68,61 @@ export const InputContainer = styled.div`
         margin-bottom: 12px;
     }
 `
+
+export const Button = styled.button`
+    width: 520px;
+    height: 48px;
+    background: #4763E4;
+    border-radius: 12px;
+    color: #fff;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+      
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px; 
+
+    &:hover {
+        cursor: pointer;
+        opacity: 0.8;
+    }
+
+`
+
+export const Footer = styled.button`
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    padding: 0 .5rem;
+    background-color: #fff;
+  
+ p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+  a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #5C73DB;
+    padding-left: 1rem;
+  }
+
+  
+`
+
+
 
 // .container {
 //     width: 100vw;

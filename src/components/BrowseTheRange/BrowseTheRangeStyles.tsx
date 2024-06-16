@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const MainBrowseTheRange = styled.main`
-border: solid green;
+  border: solid green;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,8 +22,8 @@ border: solid green;
   `
 
 export const SlideItem = styled.div`
-border: solid red;
-width: 70%;
+  border: solid red;
+  width: 70%;
 
   img {
     width: 100%;

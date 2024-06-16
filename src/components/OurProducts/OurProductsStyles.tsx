@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const OurProducts = styled.main`
+export const MainOurProducts = styled.main`
   height: 100vh;
   display: flex;
   flex-direction: column;

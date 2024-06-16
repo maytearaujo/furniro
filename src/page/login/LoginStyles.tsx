@@ -1,10 +1,7 @@
-
 import styled from 'styled-components'
 
 
-export const DivRegister = styled.div`
-    border: solid rebeccapurple;
-
+export const DivLogin = styled.div`
     border: solid red;
     width: 100%;
     height: 80vh;
@@ -20,7 +17,7 @@ export const DivRegister = styled.div`
         
     }
 `
-export const HeaderRegister = styled.div`
+export const HeaderLogin = styled.div`
     /* border: solid green; */
 
     display: flex;
@@ -61,46 +58,6 @@ export const InputContainer = styled.div`
     }
 `
 
-// .container {
-//     width: 100vw;
-//     height: 100vh;
-//     display: flex;
-//     align-items: center;
-//     justify-content: center;
-//     flex-direction: column;
-//   }
-//   .container .header {
-//     display: flex;
-//     align-items: center;
-//     flex-direction: column;
-//     margin-bottom: 40px;
-//   }
-  
-//   .container .header span {
-//     font-weight: 500;
-//     font-size: 20px;
-//     line-height: 24px;
-//     padding-top: 15px;
-//   }
-  
-//   .container form {
-//     display: flex;
-//     align-items: center;
-//     flex-direction: column;
-//   }
-  
-//   .container form  .inputContainer {
-//     display: flex;
-//     align-items: flex-start;
-//     flex-direction: column;
-//   }
-  
-//   .container form  .inputContainer label {
-//     font-weight: 400;
-//     font-size: 16px;
-//     line-height: 19px;
-//     margin-bottom: 8px;
-//   }
   
 //   .container form  .inputContainer input {
 //     display: flex;

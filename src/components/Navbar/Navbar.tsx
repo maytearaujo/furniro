@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom"
 
 import * as S from "./NavbarStyles"
 
@@ -13,16 +13,22 @@ const Navbar = () => {
             <S.Nav>
                 <ul>
                     <li>
-                        <a href={`/`}>Home</a>
+                        <Link to={`/`}>Home</Link>
                     </li>
                     <li>
-                        <a href={`/shop`}>Shop</a>
+                        <Link to={`/shop`}>Shop</Link>
                     </li>
                     <li>
-                        <a href={`/about`}>About</a>
+                        <Link to={`/about`}>About</Link>
                     </li>
                     <li>
-                        <a href={`/contact`}>Contact</a>
+                        <Link to={`/contact`}>Contact</Link>
+                    </li>
+                    <li>
+                        <Link to={`/login`}>Login</Link>
+                    </li>
+                    <li>
+                        <Link to={`/register`}>Register</Link>
                     </li>
                 </ul>
             </S.Nav>

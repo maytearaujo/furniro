@@ -4,7 +4,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import axios from 'axios';
 
 import 'swiper/css';
-
 import * as S from './BrowseTheRangeStyles'
 
 const BrowseTheRange = () => {
@@ -16,21 +15,21 @@ const BrowseTheRange = () => {
     imgUrl: string;
   };
 
-  const [furnitures, setFurnitures] = useState<Furniture[]>([]);
+  const [allProducts, setAllProducts] = useState<Furniture[]>([]);
   // const [furnitures, setFurnitures] = useState([]);
 
   useEffect(() => {
-    const fetchFurnitures = async () => {
+    const fetchAllProducts = async () => {
       try {
         const response = await axios.get(api);
-        setFurnitures(response.data);
+        setAllProducts(response.data);
 
       } catch (error) {
         console.error(error);
       }
     };
 
-    fetchFurnitures();
+    fetchAllProducts();
   }, []);
 
 
@@ -40,31 +39,7 @@ const BrowseTheRange = () => {
       <S.MainBrowseTheRange>
         <h2>Browse The Range</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        <S.SlideItem>
-          <p>Slide1</p>
-          <Swiper
-            spaceBetween={10}
-            slidesPerView={2}
-            navigation
-            pagination={{ clickable: true }}
-            scrollbar={{ draggable: true }}
-          >
-            <SwiperSlide>
-              <img src="https://myfurniros.s3.us-west-1.amazonaws.com/img/home/Hero.png" alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="https://myfurniros.s3.us-west-1.amazonaws.com/img/home/Hero.png" alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="https://myfurniros.s3.us-west-1.amazonaws.com/img/home/Hero.png" alt="" />
-            </SwiperSlide>
-            <SwiperSlide>
-              <img src="https://myfurniros.s3.us-west-1.amazonaws.com/img/home/Hero.png" alt="" />
-            </SwiperSlide>
-          </Swiper>
-        </S.SlideItem>
-
-        <p>slide2</p>
+ 
         <S.SlideItem>
           <Swiper
             spaceBetween={50}
@@ -73,20 +48,15 @@ const BrowseTheRange = () => {
             pagination={{ clickable: true }}
             scrollbar={{ draggable: true }}
           >
-            {furnitures.length > 0 ? (
-              furnitures.map((item) => (
+            {allProducts.length > 0 ? (
+              allProducts.map((item) => (
                 <SwiperSlide key={item.id}>
 
                   <img
                     src={item.imgUrl}
                     alt="Furniture"
-
                   />
                 </SwiperSlide>
-
-
-
-
               ))
             ) : (
               <div>

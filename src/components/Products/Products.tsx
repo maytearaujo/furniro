@@ -19,11 +19,11 @@ const Products = ({products}) => {
                     products.map((product) => (
                         <div key={product.id}>
                             <S.DivAvatar>
-                                <img src={product.avatar} alt={product.name} />
+                                <img src={product.imgUrl} alt="Furniture" />
                             </S.DivAvatar>
-                            <h3>{product.name}</h3>
+                            {/* <h3>{product.name}</h3>
                             <p>{product.desciption}</p>
-                            <p>{product.price}</p>
+                            <p>{product.price}</p> */}
                             {/* <button
                                 onClick={() => handleClickProduct(product)}
                             >

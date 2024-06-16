@@ -1,38 +1,29 @@
-// import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-// import axios from 'axios';
+import axios from 'axios';
+
 import * as S from './BrowseTheRangeStyles'
 import 'swiper/css';
 
 
 const BrowseTheRange = () => {
+  const api = 'https://run.mocky.io/v3/a4bcc170-742a-4e70-a563-0775266c9e38';
 
-  const furnitures = [
-    {
-      "id": "1",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-1.png"
-    },
-    {
-      "id": "2",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-2.png"
-    },
-    {
-      "id": "3",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-3.png"
-    },
-    {
-      "id": "4",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-4.png"
-    },
-    {
-      "id": "5",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-5.png"
-    },
-    {
-      "id": "6",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-6.png"
-    }
-  ]
+  const [allProducts, setAllProducts] = useState([]);
+
+  useEffect(() => {
+    const fetchAllProducts = async () => {
+      try {
+        const response = await axios.get(api);
+        setAllProducts(response.data);
+        console.log(response.data)
+      } catch (error) {
+        console.error(error);
+      }
+    };
+  
+    fetchAllProducts()
+  }, [])
 
   return (
     <S.MainBrowseTheRange>
@@ -54,7 +45,7 @@ const BrowseTheRange = () => {
             320: { slidesPerView: 1, spaceBetween: 10 },
           }}
         >
-          {furnitures.map((item) => (
+          {allProducts.map((item) => (
             <SwiperSlide key={item.id}>
               <img
                 src={item.imgUrl}

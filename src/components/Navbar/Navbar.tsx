@@ -1,5 +1,4 @@
 
-import Root from "../../routes/root"
 
 import * as S from "./NavbarStyles"
 
@@ -11,7 +10,22 @@ const Navbar = () => {
                 <h1>Furniro</h1>
             </S.Logo>
 
-            <Root />
+            <S.Nav>
+                <ul>
+                    <li>
+                        <a href={`/`}>Home</a>
+                    </li>
+                    <li>
+                        <a href={`/shop`}>Shop</a>
+                    </li>
+                    <li>
+                        <a href={`/about`}>About</a>
+                    </li>
+                    <li>
+                        <a href={`/contact`}>Contact</a>
+                    </li>
+                </ul>
+            </S.Nav>
 
             <S.Login>
                 <img src="" alt="" />

@@ -24,4 +24,10 @@
    
     ```bash
     npm install
+
+5. Rodar o servidor:
+   
+    ```bash
+    npm install json-server
+
      

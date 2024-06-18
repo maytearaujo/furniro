@@ -7,7 +7,8 @@ import 'swiper/css';
 import * as S from './BrowseTheRange/BrowseTheRangeStyles';
 
 const BrowseTheRange = () => {
-  const api = 'https://run.mocky.io/v3/8d1f6480-7ae1-4135-8e50-e572d7b0778e/';
+  // const api = 'https://run.mocky.io/v3/8d1f6480-7ae1-4135-8e50-e572d7b0778e/';
+  const api = 'http://localhost:3000/BrowseTheRange'
 
   type Furniture = {
     id: string;
@@ -19,7 +20,7 @@ const BrowseTheRange = () => {
   useEffect(() => {
     const fetchFurnitures = async () => {
       try {
-        const response = await axios.get(`${api}BrowseTheRange`);
+        const response = await axios.get(`${api}`);
         // Mapear os dados recebidos para garantir que id e imgUrl são strings
         const mappedData = response.data.map((item: string) => ({
 

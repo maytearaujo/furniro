@@ -69,8 +69,16 @@ export const InputContainer = styled.div`
     }
 `
 
+export const DivBotoes = styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    background-color: #fff;
+`
+
 export const Button = styled.button`
-    width: 520px;
+    width: 45%;
     height: 48px;
     background: #4763E4;
     border-radius: 12px;

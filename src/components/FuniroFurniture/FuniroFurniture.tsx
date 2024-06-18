@@ -1,36 +1,27 @@
-// import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-// import axios from 'axios';
-import 'swiper/css';import * as S from './FuniroFurnitureStyles'
-const FuniroFurniture = () => {
+import axios from 'axios';
+import 'swiper/css';
+import * as S from './FuniroFurnitureStyles'
 
+const FuniroFurniture = () => {
+  // const api = 'https://run.mocky.io/v3/a8188661-b7a1-43d5-ab77-12cadb8f9976'
+  const api = 'http://localhost:3000/FuniroFurniture'
+
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const response = await axios.get(api);
+        setProducts(response.data);
+      } catch (error) {
+        console.error(error);
+      }
+    };
   
-  const furnitures = [
-    {
-      "id": "1",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-1.png"
-    },
-    {
-      "id": "2",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-2.png"
-    },
-    {
-      "id": "3",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-3.png"
-    },
-    {
-      "id": "4",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-4.png"
-    },
-    {
-      "id": "5",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-5.png"
-    },
-    {
-      "id": "6",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-6.png"
-    }
-  ]
+    fetchProducts()
+  }, [])
 
   return (
     <S.FuniroFurniture>
@@ -52,7 +43,7 @@ const FuniroFurniture = () => {
             320: { slidesPerView: 1, spaceBetween: 10 },
           }}
         >
-          {furnitures.map((item) => (
+          {products.map((item) => (
             <SwiperSlide key={item.id}>
               <img
                 src={item.imgUrl}
@@ -60,7 +51,6 @@ const FuniroFurniture = () => {
               />
             </SwiperSlide>
           ))
-
           }
         </Swiper>
       </S.SlideItem>

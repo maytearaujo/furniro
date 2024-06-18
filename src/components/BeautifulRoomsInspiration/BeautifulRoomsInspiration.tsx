@@ -1,39 +1,30 @@
-// import { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
-// import axios from 'axios';
-import 'swiper/css';
+import axios from 'axios';
+
 import * as S from './BeautifulRoomsInspirationStyles'
+import 'swiper/css';
+
+const BeautifulRoomsInspiration = () => {
+  // const api = 'https://run.mocky.io/v3/1a94c050-c3de-46e1-955f-49f240af046c'; 
+  const api = 'http://localhost:3000/Beautiful-rooms-inspiration'
+  
+  const [products, setProducts] = useState([]);
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      try {
+        const response = await axios.get(api);
+        setProducts(response.data);
+      } catch (error) {
+        console.error(error);
+      }
+    };
+  
+    fetchProducts()
+  }, [])
 
 
-function BeautifulRoomsInspiration() {
-
-
-  const furnitures = [
-    {
-      "id": "1",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-1.png"
-    },
-    {
-      "id": "2",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-2.png"
-    },
-    {
-      "id": "3",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-3.png"
-    },
-    {
-      "id": "4",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-4.png"
-    },
-    {
-      "id": "5",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-5.png"
-    },
-    {
-      "id": "6",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-6.png"
-    }
-  ]
   return (
     <S.BeautifulRoomsInspiration>
       <h2>50+Beautiful Rooms Inspiration</h2>
@@ -53,7 +44,7 @@ function BeautifulRoomsInspiration() {
             320: { slidesPerView: 1, spaceBetween: 10 },
           }}
         >
-          {furnitures.map((item) => (
+          {products.map((item) => (
             <SwiperSlide key={item.id}>
               <img
                 src={item.imgUrl}
@@ -61,7 +52,6 @@ function BeautifulRoomsInspiration() {
               />
             </SwiperSlide>
           ))
-
           }
         </Swiper>
       </S.SlideItem>

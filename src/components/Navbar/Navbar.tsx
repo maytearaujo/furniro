@@ -31,7 +31,10 @@ const Navbar = () => {
                         <Link to={`/register`}>Register</Link>
                     </li>
                     <li>
-                        <Link to={`/teste`}>teste</Link>
+                        <Link to={`/teste`}>Teste</Link>
+                    </li>
+                    <li>
+                        <Link to={`/cart`}>Cart</Link>
                     </li>
                 </ul>
             </S.Nav>

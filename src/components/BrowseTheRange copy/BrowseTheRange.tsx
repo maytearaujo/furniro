@@ -8,21 +8,22 @@ import * as S from './BrowseTheRangeStyles'
 
 const BrowseTheRange = () => {
 
-  const api = 'https://run.mocky.io/v3/a4bcc170-742a-4e70-a563-0775266c9e38';
+  // const api = 'https://run.mocky.io/v3/a4bcc170-742a-4e70-a563-0775266c9e38';
+  const api = 'http://localhost:3000/BrowseTheRange'
 
-  type Furniture = {
-    id: string;
-    imgUrl: string;
-  };
+  // type Furniture = {
+  //   id: string;
+  //   imgUrl: string;
+  // };
 
-  const [allProducts, setAllProducts] = useState<Furniture[]>([]);
+  const [products, setProducts] = useState([]);
   // const [furnitures, setFurnitures] = useState([]);
 
   useEffect(() => {
     const fetchAllProducts = async () => {
       try {
         const response = await axios.get(api);
-        setAllProducts(response.data);
+        setProducts(response.data);
 
       } catch (error) {
         console.error(error);
@@ -48,8 +49,8 @@ const BrowseTheRange = () => {
             pagination={{ clickable: true }}
             scrollbar={{ draggable: true }}
           >
-            {allProducts.length > 0 ? (
-              allProducts.map((item) => (
+            {products.length > 0 ? (
+              products.map((item) => (
                 <SwiperSlide key={item.id}>
 
                   <img

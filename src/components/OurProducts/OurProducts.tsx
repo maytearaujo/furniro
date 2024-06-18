@@ -6,7 +6,8 @@ import * as S from './OurProductsStyles'
 import 'swiper/css';
 
 const OurProducts = () => {
-  const api = 'https://run.mocky.io/v3/81cd49ec-d8ab-48d0-af9f-85e826ada56c'; //api com vários grupos de produtos
+  // const api = 'https://run.mocky.io/v3/81cd49ec-d8ab-48d0-af9f-85e826ada56c'; 
+  const api = 'http://localhost:3000/OurProducts'
 
   const [allProducts, setAllProducts] = useState([]);
 
@@ -19,7 +20,7 @@ const OurProducts = () => {
         console.error(error);
       }
     };
-  
+
     fetchAllProducts()
   }, [])
 
@@ -43,16 +44,21 @@ const OurProducts = () => {
             320: { slidesPerView: 1, spaceBetween: 10 },
           }}
         >
-                   {allProducts.map((item) => (
-            <SwiperSlide key={item.id}>
-              <img
-                src={item.imgUrl}
-                alt="Furniture"
-              />
-            </SwiperSlide>
-          ))
+            {allProducts.length > 0 ? (
+              allProducts.map((item) => (
+                <SwiperSlide key={item.id}>
 
-          }
+                  <img
+                    src={item.imgUrl}
+                    alt="Furniture"
+                  />
+                </SwiperSlide>
+              ))
+            ) : (
+              <div>
+                <span>Nenhuma consulta encontrada</span>
+              </div>
+            )}
         </Swiper>
       </S.SlideItem>
     </S.MainOurProducts>

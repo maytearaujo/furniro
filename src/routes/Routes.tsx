@@ -6,10 +6,11 @@ import Login from "../page/login/Login";
 import Home from '../page/home/Home.tsx';
 import Register from "../page/register/Register";
 import Shop from '../page/shop/Shop'
-import BrowseTheRange from '../components/BrowseTheRange copy/BrowseTheRange'
+import Cart from "../page/cart/Cart.tsx";
 
-  const api = 'https://run.mocky.io/v3/a4bcc170-742a-4e70-a563-0775266c9e38'
+  // const api = 'https://run.mocky.io/v3/a4bcc170-742a-4e70-a563-0775266c9e38'
 
+  const api = 'http://localhost:3000/Products'
   const router = createBrowserRouter([
     {
       // path: "/",
@@ -20,7 +21,7 @@ import BrowseTheRange from '../components/BrowseTheRange copy/BrowseTheRange'
         { path: '/login', element: <Login /> },
         { path: '/register', element: <Register /> },
         { path: '/shop', element: <Shop api={api}/> },
-        { path: '/teste', element: <BrowseTheRange /> },
+        { path: '/cart', element: <Cart /> },
       ]
     },
   ]);

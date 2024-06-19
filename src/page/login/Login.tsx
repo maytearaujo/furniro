@@ -1,34 +1,18 @@
-import { Link } from "react-router-dom";
-
-
-import arrowImg from "../../assets/arrow.svg";
+import { Link, Navigate } from "react-router-dom";
+import { useContext } from "react";
+import { AuthGoogleContext } from "../../context/authGoogle";
 
 import * as S from './LoginStyles'
 
-import { getAuth, signInWithPopup, GoogleAuthProvider } from "firebase/auth";
-import { app } from "../../services/firebaseConfig";
+import arrowImg from "../../assets/arrow.svg";
 
-const provider = new GoogleAuthProvider();
 
 const Login = () => {
+  const { signInGoogle, signed } = useContext(AuthGoogleContext)
 
-  const auth = getAuth(app);
-
-  const signInGoogle = () => {
-    signInWithPopup(auth, provider)
-      .then((result) => {
-        const credential = GoogleAuthProvider.credentialFromResult(result);
-        const token = credential.accessToken;
-        const user = result.user;
-        console.log(user)
-      }).catch((error) => {
-        const errorCode = error.code;
-        const errorMessage = error.message;
-        const email = error.customData.email;
-        const credential = GoogleAuthProvider.credentialFromError(error);
-      });
+  async function loginGoogle() {
+    await signInGoogle()
   }
-
 
 
   return (
@@ -67,7 +51,7 @@ const Login = () => {
           <S.Button onClick={signInGoogle} >Sign In with Google</S.Button>
         </S.DivBotoes>
 
-        <button onClick={signInGoogle} >Sign In with Google</button>
+        {/* <button onClick={() => signInGoogle()} >Sign In with Google</button> */}
 
         <a href="#">Esqueceu sua senha ?</a>
 
@@ -81,6 +65,7 @@ const Login = () => {
 
     </S.DivLogin>
   )
+
 }
 
 export default Login

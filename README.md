@@ -25,9 +25,8 @@
     ```bash
     npm install
 
-5. Rodar o servidor:
-   
-    ```bash
-    npm install json-server
+5. Após instalar as dependências, você pode iniciar o projeto executando o comando:
+
+  npm run start:json-server
 
      

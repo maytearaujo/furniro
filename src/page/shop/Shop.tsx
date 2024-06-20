@@ -1,68 +1,52 @@
 import { useState, useEffect } from 'react';
-// import { Swiper, SwiperSlide } from 'swiper/react';
 import axios from 'axios';
 
 import Products from '../../components/Products/Products'
-import SearchInput from '../../components/SearchInput/SearchInput'
+import PaginationSelector from '../../components/PaginationSelector/PaginationSelector';
+import PaginationComponent from '../../components/paginationComponent/PaginationComponent';
 
-import 'swiper/css';
+
 import * as S from './Shoptyles'
 
-const Shop = ({api}) => {
+const Shop = ({ api }) => {
 
+  const [itens, setItens] = useState([]);
+  const [itensPerPage, setItensPerPage] = useState(16);
+  const [curentPage, setCurrentPage] = useState(0);
 
-  const [searchText, setSearchText] = useState('');
-  const [products, setProducts] = useState([]);
-  const [allProducts, setAllProducts] = useState([]);
+  const pages = Math.ceil(itens.length / itensPerPage);
+  const startIndex = curentPage * itensPerPage;
+  const endIndex = startIndex + itensPerPage;
+  const curretItens = itens.slice(startIndex, endIndex)
+
 
   useEffect(() => {
-    const fetchAllProducts = async () => {
+    const fetchData = async () => {
       try {
         const response = await axios.get(api);
-        setAllProducts(response.data);
+        setItens(response.data);
         console.log(response.data)
       } catch (error) {
         console.error(error);
       }
     };
 
-    fetchAllProducts()
+    fetchData()
   }, [])
 
   useEffect(() => {
-    const delayDebounceFn = setTimeout(() => {
-      if (searchText.length > 2) {
-        fetchSearchProducts(searchText);
-      } else {
-        setProducts([]);
-      }
-    }, 300);
-
-    return () => clearTimeout(delayDebounceFn);
-  }, [searchText]);
-
-
-
-  const fetchSearchProducts = async (value:string) => {
-    try {
-      const response = await axios.get(`${api}?id=${value}|imgUrl=${value}`);
-      setProducts(response.data);
-    } catch (error) {
-      console.error(error);
-    }
-  };
+    setCurrentPage(0)
+  }, [itensPerPage]);
 
 
   return (
-    
+
     <S.Main>
-      <SearchInput value={searchText} 
-      onChange={setSearchText} />
-      {searchText.length > 2 ? (
-        <Products products={products} />
-      ) : (
-        <Products products={allProducts} />
-      )}
+      <PaginationSelector itensPerPage={itensPerPage} setItensPerPage={setItensPerPage} />
+
+      <PaginationComponent pages={pages} setCurrentPage={setCurrentPage} />
+
+      <Products products={curretItens} />
     </S.Main>
   )
 }

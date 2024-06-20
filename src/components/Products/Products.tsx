@@ -4,13 +4,7 @@
 import * as S from './ProdutcsStyles'
 
 
-const Products = ({products}) => {
-    
-    // const [cart, setCart] = useState([]);
-    
-    // const handleClickProduct = (product) => {
-        
-    // }
+const Products = ({ products }) => {
 
     return (
         <S.DivProducts>
@@ -21,20 +15,6 @@ const Products = ({products}) => {
                             <S.DivAvatar>
                                 <img src={product.imgUrl} alt="Furniture" />
                             </S.DivAvatar>
-                            {/* <h3>{product.name}</h3>
-                            <p>{product.desciption}</p>
-                            <p>{product.price}</p> */}
-                            {/* <button
-                                onClick={() => handleClickProduct(product)}
-                            >
-                                {
-                                    cart.some((itemCart) => itemCart.id === product.id) ?(
-                                        <BsFillCartCheckFill />
-                                    ) : (
-                                        <BsFillCartPlusFill />
-                                    )
-                                }
-                            </button> */}
                         </div>
                     ))
                 ) : (

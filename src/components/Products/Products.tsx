@@ -14,6 +14,12 @@ const Products = ({ products }) => {
                         <div key={product.id}>
                             <S.DivAvatar>
                                 <img src={product.imgUrl} alt="Furniture" />
+                                <h4>{product.produtcName}</h4>
+                                <p>{product.sortDescription}</p>
+                                <S.DivPrice>
+                                    <p>{product.discountPrice}</p>
+                                    <p>{product.fixPrice}</p>
+                                </S.DivPrice>
                             </S.DivAvatar>
                         </div>
                     ))

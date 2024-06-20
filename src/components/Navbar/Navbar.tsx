@@ -28,11 +28,11 @@ const Navbar = () => {
                         <Link to={`/login`}>Login</Link>
                     </li>
                     <li>
-                        <Link to={`/register`}>Register</Link>
+                        <Link to={`/dashboard`}>Dashboard</Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link to={`/teste`}>Teste</Link>
-                    </li>
+                    </li> */}
                     <li>
                         <Link to={`/cart`}>Cart</Link>
                     </li>

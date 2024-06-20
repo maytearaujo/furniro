@@ -107,7 +107,7 @@ export const Footer = styled.button`
     gap: 10px;
     border: none;
     padding: 0 .5rem;
-    background-color: #fff;
+    /* background-color: #fff; */
   
  p {
     font-weight: 400;

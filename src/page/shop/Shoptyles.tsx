@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const Main = styled.main `
-  border: solid blueviolet;
+  border: solid #000;
   width: 100%;
-  height: 80vh;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -6,7 +6,7 @@ import Footer from "../../components/Footer/Footer";
 
 const ErrorPage = () => {
   const error = useRouteError();
-  console.error(error);
+  // console.error(error);
 
   return (
     <>

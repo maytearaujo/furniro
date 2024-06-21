@@ -12,7 +12,9 @@ const Navbar = () => {
                 <Link to={'/'}>
                     <img src="https://myfurniros.s3.us-west-1.amazonaws.com/img/logo.png" alt="logo Furniro" />
                 </Link>
-                <h1>Furniro</h1>
+                <Link to={'/'}>
+                    <h1>Furniro</h1>
+                </Link>
             </S.Logo>
 
             <S.Nav>

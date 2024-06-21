@@ -6,9 +6,11 @@ import Login from "../components/Login/Login";
 import Home from '../page/home/Home';
 import Signup from "../components/Signup/Signup";
 import Shop from '../page/shop/Shop'
-import Dashboard from "../components/Dashboard/Dashboard.tsx";
-// import Cart from "../page/cart/Cart";
+
 import ProtectedRoute from "../components/ProtectedRoute/ProtectedRoute";
+import Dashboard from "../components/Dashboard/Dashboard.tsx";
+import Cart from "../components/cart/Cart";
+import Contact from "../page/contact/Contact.tsx";
 
 // const api = 'https://run.mocky.io/v3/a4bcc170-742a-4e70-a563-0775266c9e38'
 
@@ -23,11 +25,19 @@ const router = createBrowserRouter([
       { path: '/login', element: <Login /> },
       { path: '/signup', element: <Signup /> },
       { path: '/shop', element: <Shop api={api} /> },
+      { path: '/contact', element: <Contact /> },
       {
         path: '/dashboard',
         element:
           <ProtectedRoute>
             <Dashboard />
+          </ProtectedRoute>,
+      },
+      {
+        path: '/cart',
+        element:
+          <ProtectedRoute>
+            <Cart />
           </ProtectedRoute>,
       },
     ]

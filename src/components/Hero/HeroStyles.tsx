@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const DivHero = styled.div`
-    border: solid green;
     width: 100%;
     height: 90vh;
     display: flex;
@@ -29,7 +28,7 @@ export const DivNewArrival = styled.div`
     button {
         background-color: #B88E2F;
         width: 13.875rem;
-        height: 4.625rem;
+        height: 4.375rem;
         color: #FFFFFF;
         font-weight: 700;
         border: none;

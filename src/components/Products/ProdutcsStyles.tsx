@@ -5,10 +5,6 @@ export const DivProducts = styled.main`
 `
 
 export const DivProduct = styled.div`
-    /* display: flex; */
-    border: solid brown;
-
-
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -41,21 +37,18 @@ export const DivAvatar = styled.div`
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    border: solid green;
     width: 17.813rem;
     height: 27.875rem;
     gap: 0px;
     opacity: 0px;
 
     img {
-        /* border-radius: 10px; */
         width: 100%;
         height: 100%;
     }   
 `
 
 export const DivPrice = styled.div`
-    border: solid purple;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -63,7 +56,6 @@ export const DivPrice = styled.div`
     align-items: center;
 
     p {
-        border: solid blue;
         width: 48%;
     }
 

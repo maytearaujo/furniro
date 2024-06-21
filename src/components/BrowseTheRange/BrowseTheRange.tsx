@@ -30,19 +30,9 @@ const api = 'http://localhost:3000/BrowseTheRange'
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
       <S.SlideItem>
         <Swiper
-          spaceBetween={50}
-          slidesPerView={3.8}
+          spaceBetween={15}
+          slidesPerView={3}
           draggable={true}
-          breakpoints={{
-            1600: { slidesPerView: 3.8 },
-            1400: { slidesPerView: 3.25 },
-            1200: { slidesPerView: 3 },
-            1024: { slidesPerView: 2.5 },
-            768: { slidesPerView: 2, spaceBetween: 30 },
-            576: { slidesPerView: 1.5, spaceBetween: 20 },
-            375: { slidesPerView: 1.25, spaceBetween: 15 },
-            320: { slidesPerView: 1, spaceBetween: 10 },
-          }}
         >
           {products.map((item) => (
             <SwiperSlide key={item.id}>
@@ -50,6 +40,7 @@ const api = 'http://localhost:3000/BrowseTheRange'
                 src={item.imgUrl}
                 alt="Furniture"
               />
+              <p>{item.rooms}</p>
             </SwiperSlide>
           ))
 

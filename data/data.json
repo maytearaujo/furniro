@@ -2,27 +2,34 @@
 "BrowseTheRange": [
     {
       "id": "1",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-1.png"
+      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-1.png",
+      "rooms" : "Dining"
     },
     {
       "id": "2",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-2.png"
+      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-2.png",
+      "rooms" : "Living"
     },
     {
       "id": "3",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-3.png"
+      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-3.png",
+      "rooms" : "Bedroom"
     },
     {
       "id": "4",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-4.png"
+      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-4.png",
+      "rooms" : "Living"
     },
     {
       "id": "5",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-5.png"
+      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-5.png",
+      "rooms" : "Living"
     },
     {
       "id": "6",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-6.png"
+      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-6.png",
+      "rooms" : "Bedroom"
+
     }
   ],
   "OurProducts": [
@@ -36,11 +43,13 @@
     },
     {
         "id": "3",
-        "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/OurProducts/image-3.png"
+        "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/OurProducts/image-3.png",
+        "rooms" : "Living"
     },
     {
         "id": "4",
-        "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/OurProducts/image-4.png"
+        "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/OurProducts/image-4.png",
+        "rooms" : "Living"
     },
     {
         "id": "5",
@@ -52,7 +61,8 @@
     },
     {
         "id": "7",
-        "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/OurProducts/image-7.png"
+        "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/OurProducts/image-7.png",
+              "rooms" : "Bedroom"
     },
     {
       "id": "8",

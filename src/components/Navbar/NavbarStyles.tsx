@@ -2,35 +2,33 @@ import styled from "styled-components";
 
 
 export const Navbar = styled.div`
-    border: solid purple;
     display: flex;
-    justify-content: space-around;
+   
+    justify-content: space-between;
     align-items: center;
 `
 export const Logo = styled.div`
-    border: solid purple;
     display: flex;
-    width: 40%;
-
+    flex-direction: row;
+    align-items: center;
     h1 {
+        margin: .5rem;
         font-family: "Montserrat";
         font-weight: 700;
         font-size: 2.125rem;
+        color: #000000;
+    }
+    
+    a {
+        text-decoration: none;
     }
 `
-export const Login = styled.div`
-    border: solid purple;
-    width: 30%;
-    display: flex;
-`
+
 export const Nav = styled.nav`
-    border: solid red;
-    width: 60%;
+    width: 35%;
     height: 8%;
 
     ul {
-        border: solid green;
-        /* width: 30%; */
         
         display: flex;
         justify-content: space-around;
@@ -42,5 +40,17 @@ export const Nav = styled.nav`
 
     a {
         text-decoration: none;
+    }
+`
+
+export const Login = styled.div`
+    width: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 3.13rem;
+
+    img {
+
+        border: 50%;
     }
 `

@@ -2,7 +2,6 @@ import styled from 'styled-components'
 
 
 export const DivLogin = styled.div`
-    border: solid red;
     width: 100%;
     height: 80vh;
     display: flex;
@@ -27,7 +26,6 @@ export const DivLogin = styled.div`
     }
 `
 export const HeaderLogin = styled.div`
-    /* border: solid green; */
 
     display: flex;
     align-items: center;

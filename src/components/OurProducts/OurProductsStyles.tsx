@@ -16,7 +16,6 @@ export const MainOurProducts = styled.main`
 
 
 export const SlideItem = styled.div`
-border: solid red;
 width: 70%;
 
   img {

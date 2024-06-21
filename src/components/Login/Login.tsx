@@ -39,7 +39,7 @@ const Login = () => {
         <h2>Welcome to Furniro</h2>
       </S.HeaderLogin>
 
-      {error && {error}}
+      {/* {error && {error}} */}
 
       <form>
 

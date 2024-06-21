@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
 
 import App from "../App.tsx";
-import ErrorPage from "../page/errorPage/ErrorPage";
+import ErrorPage from "../page/errorPage/ErrorPage.tsx";
 import Login from "../components/Login/Login";
-import Home from '../page/home/Home';
+import Home from "../page/home/Home.tsx";
 import Signup from "../components/Signup/Signup";
 import Shop from "../page/shop/Shop";
 

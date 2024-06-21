@@ -1,11 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
 
-import App from '../App.tsx';
-import ErrorPage from '../page/errorPage/ErrorPage';
+import App from "../App.tsx";
+import ErrorPage from "../page/errorPage/ErrorPage";
 import Login from "../components/Login/Login";
 import Home from '../page/home/Home';
 import Signup from "../components/Signup/Signup";
-import Shop from '../page/shop/Shop'
+import Shop from "../page/shop/Shop";
 
 import ProtectedRoute from "../components/ProtectedRoute/ProtectedRoute";
 import Dashboard from "../components/Dashboard/Dashboard.tsx";

@@ -36,4 +36,8 @@ export const NavFooter = styled.nav`
     li {
         list-style-type: none;
     }
+
+    a {
+        text-decoration: none;
+    }
 `

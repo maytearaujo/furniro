@@ -1,7 +1,7 @@
 import Hero from '../../components/Hero/Hero'
 import BrowseTheRange from '../../components/BrowseTheRange/BrowseTheRange'
 import OurProducts from '../../components/OurProducts/OurProducts'
-import BeautifulRoomsInspiration from '../../components/BeautifulRoomsInspiration/BeautifulRoomsInspiration'
+import Inspiration from '../../components/Inspiration/Inspiration'
 import FuniroFurniture from '../../components/FuniroFurniture/FuniroFurniture'
 // import Carousel from '../../components/Carousel/Carousel'
 
@@ -15,7 +15,7 @@ const Home = () => {
             <Hero />
             <BrowseTheRange />
             <OurProducts api={api}/>
-            <BeautifulRoomsInspiration />
+            <Inspiration />
             <FuniroFurniture />
         </>
     )

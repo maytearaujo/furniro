@@ -40,6 +40,8 @@ export const Nav = styled.nav`
 
     a {
         text-decoration: none;
+        font-size: 1rem;
+        font-weight: 500;
     }
 `
 

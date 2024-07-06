@@ -59,7 +59,7 @@ export const InputContainer = styled.div`
         padding: 16px;
         width: 520px;
         height: 49px;
-        border: 1px solid #5C73DB;
+        border: 1px solid #9F9F9F;
         border-radius: 12px;
         margin-bottom: 12px;
     }
@@ -76,7 +76,7 @@ export const DivBotoes = styled.div`
 export const Button = styled.button`
     width: 45%;
     height: 48px;
-    background: #4763E4;
+    background: #B88E2F;
     border-radius: 12px;
     color: #fff;
     border: none;

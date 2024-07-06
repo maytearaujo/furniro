@@ -1,66 +1,58 @@
 import { useEffect, useState } from 'react';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import axios from 'axios';
 
 import * as S from './OurProductsStyles'
-import 'swiper/css';
 
-const OurProducts = () => {
-  // const api = 'https://run.mocky.io/v3/81cd49ec-d8ab-48d0-af9f-85e826ada56c'; 
-  const api = 'http://localhost:3000/OurProducts'
+const OurProducts = ({ api }) => {
 
-  const [allProducts, setAllProducts] = useState([]);
+  const [products, setProducts] = useState([]);
+
+  const [visible, setVisible] = useState(8);
+
+  const showMoreItems = () => {
+    setVisible((prevValue) => prevValue + 4);
+  }
 
   useEffect(() => {
-    const fetchAllProducts = async () => {
+    const fetchData = async () => {
       try {
         const response = await axios.get(api);
-        setAllProducts(response.data);
+        setProducts(response.data);
+        console.log(response.data)
       } catch (error) {
         console.error(error);
       }
     };
 
-    fetchAllProducts()
+    fetchData()
   }, [])
 
   return (
     <S.MainOurProducts>
       <h2>Our Products</h2>
+      <S.DivProducts>
+        {products.length > 0 ? (
+          products.slice(0, visible).map((product) => (
+            <div key={product.id}>
+              <S.DivAvatar>
+                <img src={product.imgUrl} alt="Furniture" />
+                <h4>{product.produtcName}</h4>
+                <p>{product.sortDescription}</p>
+                <S.DivPrice>
+                  <p>{product.discountPrice}</p>
+                  <p>{product.fixPrice}</p>
+                </S.DivPrice>
+              </S.DivAvatar>
+            </div>
+          ))
+        ) : (
+          <div>
+            <span>Nenhuma consulta encontrada</span>
+          </div>
+        )}
+      </S.DivProducts>
+      <button onClick={showMoreItems}>See More...</button>
 
-      <S.SlideItem>
-        <Swiper
-          spaceBetween={50}
-          slidesPerView={3.8}
-          draggable={true}
-          breakpoints={{
-            1600: { slidesPerView: 3.8 },
-            1400: { slidesPerView: 3.25 },
-            1200: { slidesPerView: 3 },
-            1024: { slidesPerView: 2.5 },
-            768: { slidesPerView: 2, spaceBetween: 30 },
-            576: { slidesPerView: 1.5, spaceBetween: 20 },
-            375: { slidesPerView: 1.25, spaceBetween: 15 },
-            320: { slidesPerView: 1, spaceBetween: 10 },
-          }}
-        >
-            {allProducts.length > 0 ? (
-              allProducts.map((item) => (
-                <SwiperSlide key={item.id}>
-
-                  <img
-                    src={item.imgUrl}
-                    alt="Furniture"
-                  />
-                </SwiperSlide>
-              ))
-            ) : (
-              <div>
-                <span>Nenhuma consulta encontrada</span>
-              </div>
-            )}
-        </Swiper>
-      </S.SlideItem>
     </S.MainOurProducts>
   )
 }

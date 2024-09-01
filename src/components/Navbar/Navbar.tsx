@@ -2,6 +2,7 @@ import { Link } from "react-router-dom"
 
 import * as S from "./NavbarStyles"
 
+import logo from "../../assets/img/logo.png"
 import avatar from "../../assets/img/home/Navbar/login.png"
 import imgCart from "../../assets/img/home/Navbar/shopping-cart.png"
 
@@ -10,7 +11,7 @@ const Navbar = () => {
         <S.Navbar>
             <S.Logo>
                 <Link to={'/'}>
-                    <img src="https://myfurniros.s3.us-west-1.amazonaws.com/img/logo.png" alt="logo Furniro" />
+                    <img src={logo} alt="logo Furniro" />
                 </Link>
                 <Link to={'/'}>
                     <h1>Furniro</h1>
@@ -48,10 +49,10 @@ const Navbar = () => {
 
             <S.Login>
                 <Link to={'/login'}>
-                    <img src={avatar} alt="" />
+                    <img src={avatar} alt="Login" />
                 </Link>
                 <Link to={'/cart'}>
-                    <img src={imgCart} alt="" />
+                    <img src={imgCart} alt="Carrinho de Compras" />
                 </Link>
             </S.Login>
         </S.Navbar>

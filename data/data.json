@@ -2,32 +2,32 @@
 "BrowseTheRange": [
     {
       "id": "1",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-1.png",
+      "imgUrl": "/src/assets/img/home/BrowseTheRange/image-1.png",
       "rooms" : "Dining"
     },
     {
       "id": "2",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-2.png",
+      "imgUrl": "/src/assets/img/home/BrowseTheRange/image-2.png",
       "rooms" : "Living"
     },
     {
       "id": "3",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-3.png",
+      "imgUrl": "/src/assets/img/home/BrowseTheRange/image-3.png",
       "rooms" : "Bedroom"
     },
     {
       "id": "4",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-4.png",
+      "imgUrl": "/src/assets/img/home/BrowseTheRange/image-4.png",
       "rooms" : "Living"
     },
     {
       "id": "5",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-5.png",
+      "imgUrl": "/src/assets/img/home/BrowseTheRange/image-5.png",
       "rooms" : "Living"
     },
     {
       "id": "6",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-6.png",
+      "imgUrl": "/src/assets/img/home/BrowseTheRange/image-6.png",
       "rooms" : "Bedroom"
 
     }
@@ -35,96 +35,96 @@
   "OurProducts": [
     {
       "id": "1",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/OurProducts/image-1.png"
+      "imgUrl": "/src/assets/img/home/OurProducts/image-1.png"
     },
     {
       "id": "2",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/OurProducts/image-2.png"
+      "imgUrl": "/src/assets/img/home/OurProducts/image-2.png"
     },
     {
         "id": "3",
-        "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/OurProducts/image-3.png",
+        "imgUrl": "/src/assets/img/home/OurProducts/image-3.png",
         "rooms" : "Living"
     },
     {
         "id": "4",
-        "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/OurProducts/image-4.png",
+        "imgUrl": "/src/assets/img/home/OurProducts/image-4.png",
         "rooms" : "Living"
     },
     {
         "id": "5",
-        "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/OurProducts/image-5.png"
+        "imgUrl": "/src/assets/img/home/OurProducts/image-5.png"
     },
     {
         "id": "6",
-        "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/OurProducts/image-6.png"
+        "imgUrl": "/src/assets/img/home/OurProducts/image-6.png"
     },
     {
         "id": "7",
-        "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/OurProducts/image-7.png",
+        "imgUrl": "/src/assets/img/home/OurProducts/image-7.png",
               "rooms" : "Bedroom"
     },
     {
       "id": "8",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/OurProducts/image-8.png"
+      "imgUrl": "/src/assets/img/home/OurProducts/image-8.png"
     }
   ],
   "Inspiration" : [
     {
       "id": "1",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/Beautiful-rooms-inspiration/image-1.png"
+      "imgUrl": "/src/assets/img/home/Beautiful-rooms-inspiration/image-1.png"
     },
     {
       "id": "2",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/Beautiful-rooms-inspiration/image-2.png"
+      "imgUrl": "/src/assets/img/home/Beautiful-rooms-inspiration/image-2.png"
     },
     {
         "id": "3",
-        "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/Beautiful-rooms-inspiration/image-3.png"
+        "imgUrl": "/src/assets/img/home/Beautiful-rooms-inspiration/image-3.png"
     }
   ],
   "FuniroFurniture" : [
     {
       "id": "1",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/FuniroFurniture/image-1.png"
+      "imgUrl": "/src/assets/img/home/FuniroFurniture/image-1.png"
     },
     {
       "id": "2",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/FuniroFurniture/image-2.png"
+      "imgUrl": "/src/assets/img/home/FuniroFurniture/image-2.png"
     },
     {
         "id": "3",
-        "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/FuniroFurniture/image-3.png"
+        "imgUrl": "/src/assets/img/home/FuniroFurniture/image-3.png"
     },
     {
         "id": "4",
-        "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/FuniroFurniture/image-4.png"
+        "imgUrl": "/src/assets/img/home/FuniroFurniture/image-4.png"
     },
     {
         "id": "5",
-        "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/FuniroFurniture/image-5.png"
+        "imgUrl": "/src/assets/img/home/FuniroFurniture/image-5.png"
     },
     {
         "id": "6",
-        "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/FuniroFurniture/image-6.png"
+        "imgUrl": "/src/assets/img/home/FuniroFurniture/image-6.png"
     },
     {
         "id": "7",
-        "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/FuniroFurniture/image-7.png"
+        "imgUrl": "/src/assets/img/home/FuniroFurniture/image-7.png"
     },
     {
       "id": "8",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/FuniroFurniture/image-8.png"
+      "imgUrl": "/src/assets/img/home/FuniroFurniture/image-8.png"
     },
     {
       "id": "9",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/FuniroFurniture/image-9.png"
+      "imgUrl": "/src/assets/img/home/FuniroFurniture/image-9.png"
     }
   ],
   "Products" : [
     {
       "id": "1",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-1.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-1.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -132,7 +132,7 @@
     },
     {
       "id": "2",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-2.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-2.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -140,7 +140,7 @@
     },
     {
       "id": "3",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-3.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-3.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -148,7 +148,7 @@
     },
     {
       "id": "4",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-4.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-4.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -156,7 +156,7 @@
     },
     {
       "id": "5",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-5.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-5.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -164,7 +164,7 @@
     },
     {
       "id": "6",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-6.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-6.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -172,7 +172,7 @@
     },
     {
       "id": "7",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-7.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-7.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -180,7 +180,7 @@
     },
     {
       "id": "8",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-8.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-8.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -188,7 +188,7 @@
     },
     {
       "id": "9",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-9.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-9.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -196,7 +196,7 @@
     },
     {
       "id": "10",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-10.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-10.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -204,7 +204,7 @@
     },
     {
       "id": "11",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-11.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-11.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -212,7 +212,7 @@
     },
     {
       "id": "12",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-12.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-12.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -220,7 +220,7 @@
     },
     {
       "id": "13",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-13.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-13.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -228,7 +228,7 @@
     },
     {
       "id": "14",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-14.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-14.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -236,7 +236,7 @@
     },
     {
       "id": "15",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-15.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-15.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -244,7 +244,7 @@
     },
     {
       "id": "16",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-16.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-16.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -252,7 +252,7 @@
     },
     {
       "id": "17",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-17.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-17.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -260,7 +260,7 @@
     },
     {
       "id": "18",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-18.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-18.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -268,7 +268,7 @@
     },
     {
       "id": "19",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-19.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-19.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -276,7 +276,7 @@
     },
     {
       "id": "20",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-20.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-20.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -284,7 +284,7 @@
     },
     {
       "id": "21",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-21.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-21.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -292,7 +292,7 @@
     },
     {
       "id": "22",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-22.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-22.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -300,7 +300,7 @@
     },
     {
       "id": "23",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-23.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-23.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -308,7 +308,7 @@
     },
     {
       "id": "24",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-24.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-24.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -316,7 +316,7 @@
     },
     {
       "id": "25",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-25.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-25.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -324,7 +324,7 @@
     },
     {
       "id": "26",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-26.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-26.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -332,7 +332,7 @@
     },
     {
       "id": "27",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-27.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-27.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -340,7 +340,7 @@
     },
     {
       "id": "28",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-28.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-28.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -348,7 +348,7 @@
     },
     {
       "id": "29",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-29.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-29.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -356,7 +356,7 @@
     },
     {
       "id": "30",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-30.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-30.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -364,7 +364,7 @@
     },
     {
       "id": "31",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-31.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-31.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -372,7 +372,7 @@
     },
     {
       "id": "32",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-32.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-32.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -380,7 +380,7 @@
     },
     {
       "id": "33",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-33.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-33.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -388,7 +388,7 @@
     },
     {
       "id": "34",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-34.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-34.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -396,7 +396,7 @@
     },
     {
       "id": "35",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-35.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-35.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -404,7 +404,7 @@
     },
     {
       "id": "36",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-36.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-36.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -412,7 +412,7 @@
     },
     {
       "id": "37",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-37.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-37.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -420,7 +420,7 @@
     },
     {
       "id": "38",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-38.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-38.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -428,7 +428,7 @@
     },
     {
       "id": "39",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-39.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-39.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -436,7 +436,7 @@
     },
     {
       "id": "40",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-40.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-40.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -444,7 +444,7 @@
     },
     {
       "id": "41",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-41.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-41.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -452,7 +452,7 @@
     },
     {
       "id": "42",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-42.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-42.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -460,7 +460,7 @@
     },
     {
       "id": "43",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-43.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-43.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -468,7 +468,7 @@
     },
     {
       "id": "44",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-44.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-44.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -476,7 +476,7 @@
     },
     {
       "id": "45",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-45.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-45.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -484,7 +484,7 @@
     },
     {
       "id": "46",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-46.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-46.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -492,7 +492,7 @@
     },
     {
       "id": "47",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-47.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-47.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -500,7 +500,7 @@
     },
     {
       "id": "48",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-48.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-48.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -508,7 +508,7 @@
     },
     {
       "id": "49",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-49.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-49.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -516,7 +516,7 @@
     },
     {
       "id": "50",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-50.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-50.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -524,7 +524,7 @@
     },
     {
       "id": "51",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-51.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-51.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -532,7 +532,7 @@
     },
     {
       "id": "52",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-52.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-52.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -540,7 +540,7 @@
     },
     {
       "id": "53",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-53.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-53.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -548,7 +548,7 @@
     },
     {
       "id": "54",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-54.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-54.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -556,7 +556,7 @@
     },
    {
       "id": "55",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-55.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-55.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -564,7 +564,7 @@
     },
     {
       "id": "56",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-56.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-56.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -572,7 +572,7 @@
     },
     {
       "id": "57",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-57.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-57.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -581,7 +581,7 @@
 
     {
       "id": "58",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-58.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-58.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -589,7 +589,7 @@
     },
     {
       "id": "59",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-59.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-59.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -597,7 +597,7 @@
     },
     {
       "id": "60",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-60.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-60.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -605,7 +605,7 @@
     },
     {
       "id": "61",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-61.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-61.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -613,7 +613,7 @@
     },
     {
       "id": "62",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-62.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-62.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -621,7 +621,7 @@
     },
     {
       "id": "63",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-63.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-63.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -629,7 +629,7 @@
     },
     {
       "id": "64",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-64.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-64.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -637,7 +637,7 @@
     },
     {
       "id": "65",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-65.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-65.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -645,7 +645,7 @@
     },
     {
       "id": "66",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-66.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-66.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -653,7 +653,7 @@
     },
     {
       "id": "68",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-68.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-68.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -661,7 +661,7 @@
     },
     {
       "id": "69",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-69.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-69.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -669,7 +669,7 @@
     },
     {
       "id": "70",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-70.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-70.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -677,7 +677,7 @@
     },
     {
       "id": "71",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-71.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-71.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -685,7 +685,7 @@
     },
     {
       "id": "71",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-71.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-71.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -693,7 +693,7 @@
     },
     {
       "id": "73",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-73.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-73.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -701,7 +701,7 @@
     },
     {
       "id": "74",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-74.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-74.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -709,7 +709,7 @@
     },
     {
       "id": "75",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-75.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-75.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -717,7 +717,7 @@
     },
     {
       "id": "76",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-76.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-76.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -725,7 +725,7 @@
     },
     {
       "id": "77",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-77.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-77.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -733,7 +733,7 @@
     },
     {
       "id": "78",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-78.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-78.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -741,7 +741,7 @@
     },
     {
       "id": "79",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-79.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-79.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -749,7 +749,7 @@
     },
     {
       "id": "80",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-80.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-80.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -757,7 +757,7 @@
     },
     {
       "id": "81",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-81.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-81.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -765,7 +765,7 @@
     },
     {
       "id": "82",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-82.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-82.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -773,7 +773,7 @@
     },
     {
       "id": "83",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-83.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-83.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -781,7 +781,7 @@
     },
     {
       "id": "84",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-84.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-84.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -789,7 +789,7 @@
     },
     {
       "id": "85",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-85.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-85.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -797,7 +797,7 @@
     },
     {
       "id": "86",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-86.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-86.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -805,7 +805,7 @@
     },
     {
       "id": "87",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-87.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-87.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -813,7 +813,7 @@
     },
     {
       "id": "88",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-88.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-88.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -821,7 +821,7 @@
     },
     {
       "id": "89",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-89.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-89.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -829,7 +829,7 @@
     },
     {
       "id": "90",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-90.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-90.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -837,7 +837,7 @@
     },
     {
       "id": "91",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-91.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-91.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -845,7 +845,7 @@
     },
     {
       "id": "92",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-92.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-92.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -853,7 +853,7 @@
     },
     {
       "id": "94",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-94.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-94.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -861,7 +861,7 @@
     },
     {
       "id": "95",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-95.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-95.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -869,7 +869,7 @@
     },
     {
       "id": "96",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-96.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-96.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -877,7 +877,7 @@
     },
     {
       "id": "97",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-97.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-97.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -885,7 +885,7 @@
     },
     {
       "id": "98",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-98.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-98.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -893,7 +893,7 @@
     },
     {
       "id": "99",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-99.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-99.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -901,7 +901,7 @@
     },
     {
       "id": "100",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-100.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-100.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -909,7 +909,7 @@
     },
     {
       "id": "101",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-101.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-101.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -917,7 +917,7 @@
     },
     {
       "id": "102",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-102.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-102.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -925,7 +925,7 @@
     },
     {
       "id": "103",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-103.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-103.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -933,7 +933,7 @@
     },
     {
       "id": "104",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-104.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-104.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -941,7 +941,7 @@
     },
     {
       "id": "105",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-105.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-105.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -949,7 +949,7 @@
     },
     {
       "id": "106",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-106.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-106.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -957,7 +957,7 @@
     },
     {
       "id": "107",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-107.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-107.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -965,7 +965,7 @@
     },
     {
       "id": "108",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-108.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-108.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -973,7 +973,7 @@
     },
     {
       "id": "109",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-109.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-109.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -981,7 +981,7 @@
     },
     {
       "id": "110",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-110.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-110.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -989,7 +989,7 @@
     },
     {
       "id": "111",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-111.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-111.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -997,7 +997,7 @@
     },
     {
       "id": "112",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-112.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-112.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -1005,7 +1005,7 @@
     },
     {
       "id": "113",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-113.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-113.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -1013,7 +1013,7 @@
     },
     {
       "id": "114",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-114.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-114.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -1021,7 +1021,7 @@
     },
     {
       "id": "115",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-115.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-115.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -1029,7 +1029,7 @@
     },
     {
       "id": "116",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-116.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-116.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -1037,7 +1037,7 @@
     },
     {
       "id": "117",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-117.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-117.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -1045,7 +1045,7 @@
     },
     {
       "id": "118",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-118.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-118.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -1053,7 +1053,7 @@
     },
     {
       "id": "119",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-119.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-119.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -1061,7 +1061,7 @@
     },
     {
       "id": "120",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-120.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-120.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -1069,7 +1069,7 @@
     },
    {
       "id": "121",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-121.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-121.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -1077,7 +1077,7 @@
     },
     {
       "id": "122",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-122.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-122.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -1085,7 +1085,7 @@
     },
     {
       "id": "123",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-123.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-123.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -1094,7 +1094,7 @@
 
     {
       "id": "124",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-124.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-124.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -1102,7 +1102,7 @@
     },
     {
       "id": "125",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-125.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-125.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -1110,7 +1110,7 @@
     },
     {
       "id": "126",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-126.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-126.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -1118,7 +1118,7 @@
     },
     {
       "id": "127",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-127.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-127.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -1126,7 +1126,7 @@
     },
     {
       "id": "128",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-128.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-128.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -1134,7 +1134,7 @@
     },
     {
       "id": "129",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-129.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-129.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -1142,7 +1142,7 @@
     },
     {
       "id": "130",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-130.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-130.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -1150,7 +1150,7 @@
     },
     {
       "id": "131",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-131.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-131.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -1158,7 +1158,7 @@
     },
     {
       "id": "132",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-132.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-132.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -1166,7 +1166,7 @@
     },
     {
       "id": "133",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-133.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-133.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -1174,7 +1174,7 @@
     },
     {
       "id": "134",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-134.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-134.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -1182,7 +1182,7 @@
     },
     {
       "id": "135",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-135.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-135.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -1190,7 +1190,7 @@
     },
     {
       "id": "136",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-136.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-136.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -1198,7 +1198,7 @@
     },
     {
       "id": "137",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-137.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-137.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -1206,7 +1206,7 @@
     },
     {
       "id": "138",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-138.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-138.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -1214,7 +1214,7 @@
     },
     {
       "id": "139",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-139.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-139.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -1222,7 +1222,7 @@
     },
     {
       "id": "140",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-140.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-140.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -1230,7 +1230,7 @@
     },
     {
       "id": "141",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-141.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-141.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -1238,7 +1238,7 @@
     },
     {
       "id": "142",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-142.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-142.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -1246,7 +1246,7 @@
     },
     {
       "id": "143",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-143.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-143.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -1254,7 +1254,7 @@
     },
     {
       "id": "144",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-144.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-144.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -1262,7 +1262,7 @@
     },
     {
       "id": "145",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-145.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-145.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -1270,7 +1270,7 @@
     },
     {
       "id": "146",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-146.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-146.png",
       "produtcName": "Leviosa",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -1278,7 +1278,7 @@
     },
     {
       "id": "147",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-147.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-147.png",
       "produtcName": "Lolito",
       "sortDescription": "Luxury big sofa",
       "discountPrice": "Rp 7.000.000",
@@ -1286,7 +1286,7 @@
     },
     {
       "id": "148",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-148.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-148.png",
       "produtcName": "Product Name",
       "sortDescription": "Outdoor bar table and stool",
       "fixPrice": "Rp 500.000",
@@ -1294,7 +1294,7 @@
     },
     {
       "id": "149",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-149.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-149.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",
@@ -1302,7 +1302,7 @@
     },
     {
       "id": "150",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/Shop/produtcs/image-150.png",
+      "imgUrl": "/src/assets/img/Shop/produtcs/image-150.png",
       "produtcName": "Syltherine",
       "sortDescription": "Stylish cafe chair",
       "discountPrice": "Rp 2.500.000",

@@ -10,27 +10,27 @@ const Carousel = () => {
   const furnitures = [
     {
       "id": "1",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-1.png"
+      "imgUrl": "/src/assets/img/home/BrowseTheRange/image-1.png"
     },
     {
       "id": "2",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-2.png"
+      "imgUrl": "/src/assets/img/home/BrowseTheRange/image-2.png"
     },
     {
       "id": "3",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-3.png"
+      "imgUrl": "/src/assets/img/home/BrowseTheRange/image-3.png"
     },
     {
       "id": "4",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-4.png"
+      "imgUrl": "/src/assets/img/home/BrowseTheRange/image-4.png"
     },
     {
       "id": "5",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-5.png"
+      "imgUrl": "/src/assets/img/home/BrowseTheRange/image-5.png"
     },
     {
       "id": "6",
-      "imgUrl": "https://myfurniros.s3.us-west-1.amazonaws.com/img/home/BrowseTheRange/image-6.png"
+      "imgUrl": "/src/assets/img/home/BrowseTheRange/image-6.png"
     }
   ]
 

@@ -8,7 +8,7 @@ export const DivHero = styled.div`
     align-items: center;
     padding-right: 2rem;
 
-    background-image: url('https://myfurniros.s3.us-west-1.amazonaws.com/img/home/Hero.png');
+    background-image: url('/src/assets/img/home/Hero.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 `

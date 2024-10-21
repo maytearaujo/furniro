@@ -27,6 +27,10 @@
 
 5. Após instalar as dependências, você pode iniciar o projeto executando o comando:
 
-  npm run start:json-server
+   ```bash
+    npm run start:json-server
 
-     
+6. Link do deploy:
+
+   ```bash
+    https://furniro-jzacimqpe-mayte-araujos-projects.vercel.app/     

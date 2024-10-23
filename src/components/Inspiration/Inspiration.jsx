@@ -7,7 +7,8 @@ import 'swiper/css';
 
 const Inspiration = () => {
   // const api = 'https://run.mocky.io/v3/1a94c050-c3de-46e1-955f-49f240af046c'; 
-  const api = 'http://localhost:3000/Inspiration'
+  // const api = 'http://localhost:3000/Inspiration'
+  const api = 'https://json-server-vercel-furniro-7yxw.vercel.app/Inspiration'
 
   const [products, setProducts] = useState([]);
 

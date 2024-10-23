@@ -6,7 +6,8 @@ import * as S from './FuniroFurnitureStyles'
 
 const FuniroFurniture = () => {
   // const api = 'https://run.mocky.io/v3/a8188661-b7a1-43d5-ab77-12cadb8f9976'
-  const api = 'http://localhost:3000/FuniroFurniture'
+  // const api = 'http://localhost:3000/FuniroFurniture'
+  const api = 'https://json-server-vercel-furniro-7yxw.vercel.app/FuniroFurniture'
 
   const [products, setProducts] = useState([]);
 

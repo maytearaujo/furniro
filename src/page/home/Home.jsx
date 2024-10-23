@@ -7,7 +7,9 @@ import FuniroFurniture from '../../components/FuniroFurniture/FuniroFurniture'
 
 // const api = 'https://run.mocky.io/v3/a4bcc170-742a-4e70-a563-0775266c9e38'
 //const api ='http://localhost:3000'
-const api = 'http://localhost:3000/Products';
+// const api = 'http://localhost:3000/Products';
+const api = 'https://json-server-vercel-furniro-7yxw.vercel.app/Products';
+
 
 const Home = () => {
     return (

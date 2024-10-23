@@ -1,6 +1,7 @@
 // See https://github.com/typicode/json-server#module
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const jsonServer = require('json-server');
+import jsonServer from 'json-server';
+import cors from 'cors';
 
 const server = jsonServer.create();
 
@@ -17,8 +18,6 @@ const router = jsonServer.router('db.json')
 
 const middlewares = jsonServer.defaults()
 
-const cors = require('cors');
-
 server.use(cors({ origin: 'https://furniro-lake.vercel.app' }));
 
 server.use(middlewares)
@@ -32,4 +31,4 @@ server.use(router)
 // })
 
 // Export the Server API
-module.exports = server;
+export default server;

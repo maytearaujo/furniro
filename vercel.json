@@ -3,7 +3,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "server.js",
+        "src": "App.jsx",
         "use": "@vercel/node",
         "config": {
           "includeFiles": ["db.json"]

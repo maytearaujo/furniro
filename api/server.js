@@ -12,9 +12,9 @@ server.use(cors({ origin: 'https://furniro-lake.vercel.app' }));
 server.use(middlewares)
 
 // Add this before server.use(router)
-server.use(jsonServer.rewriter({
-    '/api/*': '/$1',
-}))
+// server.use(jsonServer.rewriter({
+//     '/api/*': '/$1',
+// }))
 
 server.use(router)
 

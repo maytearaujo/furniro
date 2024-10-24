@@ -12,16 +12,16 @@ const Footer = () => {
             FL 33134 USA</p>
           <S.RedesSociais>
             <a href="https://www.facebook.com/?locale=pt_BR" target='_blank' >
-              <img src="../../../src/assets/img/footer/facebook.png" alt="Facebook" />
+              <img src="../../../public/assets/img/footer/facebook.png" alt="Facebook" />
             </a>
             <a href="https://www.instagram.com/" target='_blank' >
-              <img src="../../../src/assets/img/footer/instagram.png" alt="Instagram" />
+              <img src="../../../public/assets/img/footer/instagram.png" alt="Instagram" />
             </a>
             <a href="https://br.linkedin.com/" target='_blank' >
-              <img src="../../../src/assets/img/footer/linkedin.png" alt="Linkedin" />
+              <img src="../../../public/assets/img/footer/linkedin.png" alt="Linkedin" />
             </a>
             <a href="https://twitter.com/login" target='_blank' >
-              <img src="../../../src/assets/img/footer/twitter.png" alt="Twitter" />
+              <img src="../../../public/assets/img/footer/twitter.png" alt="Twitter" />
             </a>
           </S.RedesSociais>
         </section>

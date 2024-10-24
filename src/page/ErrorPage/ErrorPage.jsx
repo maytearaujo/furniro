@@ -19,7 +19,7 @@ const ErrorPage = () => {
           
           {/* <i>{error.statusText || error.message}</i> */}
         </p>
-        <img src="../../../src/page/ErrorPage/error.jpg" alt="Error" />
+        <img src="../../../public/page/ErrorPage/error.jpg" alt="Error" />
 
         <S.LinkBackHome>
           <Link to="/">Back to Home</Link>

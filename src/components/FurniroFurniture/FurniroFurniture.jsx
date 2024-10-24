@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 // import { Swiper, SwiperSlide } from 'swiper/react';
 import axios from 'axios';
 // import 'swiper/css';
-import * as S from './FuniroFurnitureStyles'
+import * as S from './FurniroFurnitureStyles'
 
 const FuniroFurniture = () => {
 
@@ -14,7 +14,9 @@ const FuniroFurniture = () => {
     const fetchProducts = async () => {
       try {
         const response = await axios.get(api);
-        setProducts(response.data);
+        console.log(response.data)
+        setProducts(response.data.item);
+        // setProducts(Array.isArray(response.data) ? response.data : []);
       } catch (error) {
         console.error(error);
       }

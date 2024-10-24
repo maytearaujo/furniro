@@ -15,7 +15,8 @@ const api = 'https://furniro-lake.vercel.app/BrowseTheRange';
     const fetchProducts = async () => {
       try {
         const response = await axios.get(api);
-        setProducts(response.data);
+        setProducts(response.data.items);
+        // setProducts(Array.isArray(response.data) ? response.data : []);
       } catch (error) {
         console.error(error);
       }

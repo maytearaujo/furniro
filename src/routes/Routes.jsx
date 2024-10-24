@@ -13,7 +13,7 @@ import Cart from "../components/cart/Cart.jsx";
 import Contact from "../page/contact/Contact.jsx";
 
 
-const api = 'https://json-server-vercel-furniro-7yxw.vercel.app/Products'
+const api = 'https://furniro-lake.vercel.app/Products'
 const router = createBrowserRouter([
   {
     // path: "/",

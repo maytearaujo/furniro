@@ -6,7 +6,7 @@ import * as S from './FuniroFurnitureStyles'
 
 const FuniroFurniture = () => {
 
-  const api = 'https://json-server-vercel-furniro-7yxw.vercel.app/FuniroFurniture'
+  const api = 'https://furniro-lake.vercel.app/FuniroFurniture'
 
   const [products, setProducts] = useState([]);
 

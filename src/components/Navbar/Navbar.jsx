@@ -2,9 +2,9 @@ import { Link } from "react-router-dom"
 
 import * as S from "./NavbarStyles"
 
-import logo from "../../assets/img/logo.png"
-import avatar from "../../assets/img/home/Navbar/login.png"
-import imgCart from "../../assets/img/home/Navbar/shopping-cart.png"
+import logo from "../../../public/assets/img/logo.png"
+import avatar from "../../../public/assets/img/home/Navbar/login.png"
+import imgCart from "../../../public/assets/img/home/Navbar/shopping-cart.png"
 
 const Navbar = () => {
     return (

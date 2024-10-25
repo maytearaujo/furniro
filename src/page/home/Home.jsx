@@ -2,7 +2,7 @@ import Hero from '../../components/Hero/Hero'
 import BrowseTheRange from '../../components/BrowseTheRange/BrowseTheRange'
 import OurProducts from '../../components/OurProducts/OurProducts'
 import Inspiration from '../../components/Inspiration/Inspiration'
-import FurniroFurniture from '../../components/FurniroFurniture/FurniroFurniture'
+// import FurniroFurniture from '../../components/FurniroFurniture/FurniroFurniture'
 
 const api = 'https://furniro-lake.vercel.app/Products';
 
@@ -14,7 +14,7 @@ const Home = () => {
             <BrowseTheRange />
             <OurProducts api={api}/>
             <Inspiration />
-            <FurniroFurniture />
+            {/* <FurniroFurniture /> */}
         </>
     )
 }

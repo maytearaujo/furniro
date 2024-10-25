@@ -33,7 +33,7 @@ const Inspiration = () => {
           <p>Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
         </S.TitleInspiration>
 
-        <img src="/src/assets/img/home/Beautiful-rooms-inspiration/image-1.png" alt="Inspiration" />
+        <img src="../../assets/img/home/Beautiful-rooms-inspiration/image-1.png" alt="Inspiration" />
 
         <S.SlideItem>
           <Swiper

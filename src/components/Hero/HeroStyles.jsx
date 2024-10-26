@@ -9,9 +9,9 @@ export const DivHero = styled.div`
     padding-right: 2rem;
 
     /* background-image: url('/src/assets/img/home/Hero.png'); */
-    background-image: url('.././../../src/assets/img/home/Hero.png');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    /* background-image: url('.././../../src/assets/img/home/Hero/Hero.png'); */
+    /* background-repeat: no-repeat;
+    background-size: 100% 100%; */
 `
 
 export const DivNewArrival = styled.div`

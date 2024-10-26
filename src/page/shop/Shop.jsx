@@ -5,7 +5,6 @@ import Products from '../../components/Products/Products'
 import PaginationSelector from '../../components/PaginationSelector/PaginationSelector';
 import PaginationComponent from '../../components/paginationComponent/PaginationComponent';
 
-
 import * as S from './ShopStyles'
 
 const Shop = ({ api }) => {

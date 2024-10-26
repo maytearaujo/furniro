@@ -6,7 +6,7 @@ import PaginationSelector from '../../components/PaginationSelector/PaginationSe
 import PaginationComponent from '../../components/paginationComponent/PaginationComponent';
 
 
-import * as S from './Shoptyles'
+import * as S from './ShopStyles'
 
 const Shop = ({ api }) => {
 
@@ -25,7 +25,7 @@ const Shop = ({ api }) => {
       try {
         const response = await axios.get(api);
         setItens(response.data);
-        console.log(response.data)
+        // console.log(response.data)
       } catch (error) {
         console.error(error);
       }

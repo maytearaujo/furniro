@@ -16,7 +16,7 @@ const api = 'https://furniro-json-git-main-mayte-araujos-projects.vercel.app/Pro
 
 const router = createBrowserRouter([
     {
-        // path: "/",
+        path: "/",
         element: <App />,
         errorElement: <MyErrorPage />,
         children: [

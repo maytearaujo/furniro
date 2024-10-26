@@ -1,6 +1,11 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
-import * as S from './FooterStyles'
+import * as S from './FooterStyles';
+
+import Facebook from '../../../src/assets/img/footer/facebook.png';
+import Instagram from '../../../src/assets/img/footer/instagram.png';
+import Linkedin from '../../../src/assets/img/footer/linkedin.png';
+import Twitter from '../../../src/assets/img/footer/twitter.png';
 
 const Footer = () => {
   return (
@@ -12,16 +17,16 @@ const Footer = () => {
             FL 33134 USA</p>
           <S.RedesSociais>
             <a href="https://www.facebook.com/?locale=pt_BR" target='_blank' >
-              <img src="../../../src/assets/img/footer/facebook.png" alt="Facebook" />
+              <img src={Facebook} alt="Facebook" />
             </a>
             <a href="https://www.instagram.com/" target='_blank' >
-              <img src="../../../src/assets/img/footer/instagram.png" alt="Instagram" />
+              <img src={Instagram} alt="Instagram" />
             </a>
             <a href="https://br.linkedin.com/" target='_blank' >
-              <img src="../../../src/assets/img/footer/linkedin.png" alt="Linkedin" />
+              <img src={Linkedin} alt="Linkedin" />
             </a>
             <a href="https://twitter.com/login" target='_blank' >
-              <img src="../../../src/assets/img/footer/twitter.png" alt="Twitter" />
+              <img src={Twitter} alt="Twitter" />
             </a>
           </S.RedesSociais>
         </section>

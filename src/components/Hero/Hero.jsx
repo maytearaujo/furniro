@@ -1,6 +1,6 @@
 import * as S from './HeroStyles'
 
-import ImageBackgroundDivHero from '../../../src/assets/img/home/Hero/Hero.png'
+import ImageBackgroundDivHero from '../../../src/assets/img/Hero/Hero.png'
 
 const Hero = () => {
   const estilo = {

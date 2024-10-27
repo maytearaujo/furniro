@@ -4,7 +4,7 @@ import axios from 'axios';
 import Products from '../../components/Products/Products'
 import PaginationSelector from '../../components/PaginationSelector/PaginationSelector';
 import PaginationComponent from '../../components/paginationComponent/PaginationComponent';
-
+import teste from '../../../src/assets/img/Shop/produtcs/image-1.png'
 import * as S from './ShopStyles'
 
 const Shop = ({ api }) => {
@@ -41,6 +41,7 @@ const Shop = ({ api }) => {
   return (
 
     <S.Main>
+      <img src={teste} alt="" />
       <PaginationSelector itensPerPage={itensPerPage} setItensPerPage={setItensPerPage} />
 
       <PaginationComponent pages={pages} setCurrentPage={setCurrentPage} />

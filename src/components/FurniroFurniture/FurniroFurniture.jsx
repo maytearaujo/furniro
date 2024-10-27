@@ -14,7 +14,7 @@ const FurniroFurniture = () => {
     const fetchProducts = async () => {
       try {
         const response = await axios.get(api);
-        console.log(response.data)
+        // console.log(response.data)
         setProducts(response.data);
         // setProducts(Array.isArray(response.data) ? response.data : []);
       } catch (error) {

@@ -8,14 +8,14 @@ import 'swiper/css';
 
 const BrowseTheRange = () => {
   // const api = 'https://run.mocky.io/v3/a4bcc170-742a-4e70-a563-0775266c9e38';
-const api = 'https://furniro-lake.vercel.app/BrowseTheRange';
+const api = 'https://furniro-json-git-main-mayte-araujos-projects.vercel.app/BrowseTheRange';
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
     const fetchProducts = async () => {
       try {
         const response = await axios.get(api);
-        setProducts(response.data.items);
+        setProducts(response.data);
         // setProducts(Array.isArray(response.data) ? response.data : []);
       } catch (error) {
         console.error(error);

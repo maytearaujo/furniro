@@ -4,7 +4,7 @@ import axios from 'axios';
 import Products from '../../components/Products/Products'
 import PaginationSelector from '../../components/PaginationSelector/PaginationSelector';
 import PaginationComponent from '../../components/paginationComponent/PaginationComponent';
-// import teste from '../../../src/assets/img/Shop/produtcs/image-1.png'
+// import teste from 'https://furniro-sepia.vercel.app/assets/img/Shop/produtcs/image-1.png'
 import * as S from './ShopStyles'
 
 const Shop = ({ api }) => {

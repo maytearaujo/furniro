@@ -1,10 +1,10 @@
 import Hero from '../../components/Hero/Hero'
 import BrowseTheRange from '../../components/BrowseTheRange/BrowseTheRange'
 import OurProducts from '../../components/OurProducts/OurProducts'
-// import Inspiration from '../../components/Inspiration/Inspiration'
-// import FurniroFurniture from '../../components/FurniroFurniture/FurniroFurniture'
+import Inspiration from '../../components/Inspiration/Inspiration'
+import FurniroFurniture from '../../components/FurniroFurniture/FurniroFurniture'
 
-const api = 'https://furniro-json-git-main-mayte-araujos-projects.vercel.app/Products';
+const api = 'https://furniro-json-git-main-mayte-araujos-projects.vercel.app/OurProducts';
 
 
 const Home = () => {
@@ -13,8 +13,8 @@ const Home = () => {
             <Hero />
             <BrowseTheRange />
             <OurProducts api={api}/>
-            {/* <Inspiration /> */}
-            {/* <FurniroFurniture /> */}
+            <Inspiration />
+            <FurniroFurniture />
         </>
     )
 }

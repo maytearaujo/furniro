@@ -4,9 +4,9 @@ import axios from 'axios';
 // import 'swiper/css';
 import * as S from './FurniroFurnitureStyles'
 
-const FuniroFurniture = () => {
+const FurniroFurniture = () => {
 
-  const api = 'https://furniro-json-git-main-mayte-araujos-projects.vercel.app/FuniroFurniture'
+  const api = 'https://furniro-json-git-main-mayte-araujos-projects.vercel.app/FurniroFurniture'
 
   const [products, setProducts] = useState([]);
 
@@ -15,7 +15,7 @@ const FuniroFurniture = () => {
       try {
         const response = await axios.get(api);
         console.log(response.data)
-        setProducts(response.data.item);
+        setProducts(response.data);
         // setProducts(Array.isArray(response.data) ? response.data : []);
       } catch (error) {
         console.error(error);
@@ -26,8 +26,8 @@ const FuniroFurniture = () => {
   }, [])
 
   return (
-    <S.FuniroFurniture>
-      <h2>Funiro Furniture</h2>
+    <S.FurniroFurniture>
+      <h2>Furniro Furniture</h2>
 
       <S.Mosaic>
         <S.Group1>
@@ -66,8 +66,8 @@ const FuniroFurniture = () => {
           }
         </S.Group3>
       </S.Mosaic>
-    </S.FuniroFurniture>
+    </S.FurniroFurniture>
   )
 }
 
-export default FuniroFurniture
+export default FurniroFurniture

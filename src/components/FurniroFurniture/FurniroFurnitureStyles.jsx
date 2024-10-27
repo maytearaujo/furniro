@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const FuniroFurniture = styled.main`
+export const FurniroFurniture = styled.main`
   /* border: solid green; */
   height: 100%;
   display: flex;

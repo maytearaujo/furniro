@@ -7,7 +7,7 @@ import 'swiper/css';
 
 const Inspiration = () => {
 
-  const api = 'https://furniro-lake.vercel.app/Inspiration';
+  const api = 'https://furniro-json-git-main-mayte-araujos-projects.vercel.app/Inspiration';
 
   const [products, setProducts] = useState([]);
 

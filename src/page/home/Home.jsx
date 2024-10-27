@@ -1,6 +1,6 @@
 import Hero from '../../components/Hero/Hero'
 import BrowseTheRange from '../../components/BrowseTheRange/BrowseTheRange'
-// import OurProducts from '../../components/OurProducts/OurProducts'
+import OurProducts from '../../components/OurProducts/OurProducts'
 // import Inspiration from '../../components/Inspiration/Inspiration'
 // import FurniroFurniture from '../../components/FurniroFurniture/FurniroFurniture'
 
@@ -12,7 +12,7 @@ const Home = () => {
         <>
             <Hero />
             <BrowseTheRange />
-            {/* <OurProducts api={api}/> */}
+            <OurProducts api={api}/>
             {/* <Inspiration /> */}
             {/* <FurniroFurniture /> */}
         </>

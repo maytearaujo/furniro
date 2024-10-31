@@ -1,113 +1,51 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const FurniroFurniture = styled.main`
-  /* border: solid green; */
+  /* border: solid violet; */
   height: 100%;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  align-items: center;
-
-  h2{
+  h2 {
     font-weight: 700;
     font-size: 2.5rem;
     color: #333333;
+    text-align: center;
   }
-`
+`;
 
 export const Mosaic = styled.div`
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 1rem;
-/* display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-gap: 1rem;
-width: 70%; */
+  justify-content: space-around;
+  gap: 10px;
+`;
 
-
-`
-
-export const Group1 = styled.div`
+export const MosaicColumn = styled.div`
   display: grid;
-  grid-template-columns: 1fr 2fr ;
-  /* grid-gap: 1rem; */
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  align-items: baseline;
 
-  /* border: solid green; */
-  display: grid;
+  img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+  }
+`;
+
+export const MosaicColumnCenter = styled.div`
+  display: flex;
   justify-content: center;
   align-items: center;
+  /* height: 100%; */
 
-
-  /* img{
-  &.item-1 {
-    border: solid red;
+  img {
+    width: auto;  
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    border: 2px solid #ddd;
+    border-radius: 8px;
   }
-  
-  &.item-2 {
-    border: solid red;
-  }
-  
-  &.item-3 {
-    border: solid red;
-  }
-  
-  &.item-4 {
-    border: solid red;
-  } */
-  
-
-
-}
-  /* gap: 1rem; */
-  `
-export const Group2 = styled.div`
-/* height: 80%; */
-    /* img {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-
-
-      img{
-    &.item-5 {
-    border: solid red;
-  }
-  } */
-  `
-export const Group3 = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr ;
-  grid-gap: .1rem;
-
-  div{
-    display: grid;
-    align-items: end;
-    justify-content: end;
-
-  /* &.item-6 {
-    border: solid green;
-
-  }}
-
-  img{
-    &.item-5 {
-    border: solid red;
-  }
-    
-
-  
-  &.item-7 {
-    border: solid red;
-  }
-
-  &.item-8 {
-    border: solid red;
-  }
-  
-  &.item-9 {
-    border: solid red;
-  } */
-  }
-`
+`;
